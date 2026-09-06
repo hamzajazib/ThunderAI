@@ -2467,5 +2467,56 @@
     },
     "prefs_footer_donate": {
         "message": "寄付する"
+    },
+    "anthropic_err_hint_temperature": {
+        "message": "選択したClaudeモデル（$MODEL$）は温度設定を受け付けません。温度フィールドを空にするか、代わりにEffort（労力）設定を使用してください。"
+    },
+    "anthropic_err_hint_budget_tokens": {
+        "message": "選択したClaudeモデル（$MODEL$）は手動で指定した拡張思考の予算を受け付けません。拡張思考の予算を0に設定し、代わりにEffort（労力）設定を使用してください。"
+    },
+    "anthropic_err_hint_thinking_type": {
+        "message": "選択したClaudeモデル（$MODEL$）はこの思考設定を受け付けません。拡張思考の予算とEffort（労力）の設定を確認してください。"
+    },
+    "anthropic_err_hint_effort": {
+        "message": "選択したClaudeモデル（$MODEL$）はこのEffort（労力）レベルを受け付けません。オプションページで別のレベルを選択してください。"
+    },
+    "prefs_OptionText_anthropic_effort": {
+        "message": "Effort（労力）"
+    },
+    "prefs_OptionText_anthropic_effort_Info": {
+        "message": "モデルがリクエストに対して推論にどれだけの労力を費やすかを指定します。レベルを高くすると複雑なタスクでより良い回答が得られますが、より多くのトークンを消費し、時間もかかります。Claude APIに判断を任せる場合はデフォルトのままにしてください。古いClaudeモデルはこの設定に対応していません。"
+    },
+    "anthropic_effort_default": {
+        "message": "デフォルト（APIが判断）"
+    },
+    "Anthropic_Effort_Level_low": {
+        "message": "低"
+    },
+    "Anthropic_Effort_Level_medium": {
+        "message": "中"
+    },
+    "Anthropic_Effort_Level_high": {
+        "message": "高"
+    },
+    "Anthropic_Effort_Level_xhigh": {
+        "message": "非常に高"
+    },
+    "Anthropic_Effort_Level_max": {
+        "message": "最大"
+    },
+    "anthropic_note_temperature_unsupported": {
+        "message": "選択したモデルは温度の値を受け付けず、このフィールドを無視します。代わりにEffort（労力）設定を使用してください。古いモデルに戻す場合に備えて、値は保持されます。"
+    },
+    "anthropic_note_budget_tokens_unsupported": {
+        "message": "選択したモデルは手動で指定した拡張思考の予算を受け付けず、このフィールドを無視します。代わりにEffort（労力）設定を使用してください。古いモデルに戻す場合に備えて、値は保持されます。"
+    },
+    "anthropic_note_effort_unsupported": {
+        "message": "選択したモデルはEffort（労力）設定に対応していません。代わりに拡張思考の予算を使用してください。"
+    },
+    "summarize_error_no_message_id": {
+        "message": "メッセージを読み取れませんでした：要約は件名のみから生成されることになります。"
+    },
+    "translate_error_no_message_id": {
+        "message": "メッセージを読み取れませんでした：翻訳は件名のみから生成されることになります。"
     }
 }
