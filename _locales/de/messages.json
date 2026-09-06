@@ -2596,7 +2596,7 @@
         "message": "Das ausgewählte Claude-Modell ($MODEL$) akzeptiert diese Effort-Stufe nicht. Wählen Sie auf der Optionsseite eine andere Stufe."
     },
     "prefs_OptionText_anthropic_effort": {
-        "message": "Effort"
+        "message": "Aufwand"
     },
     "prefs_OptionText_anthropic_effort_Info": {
         "message": "Wie viel Denkaufwand das Modell für eine Anfrage verwenden soll. Höhere Stufen liefern bessere Antworten bei komplexen Aufgaben, kosten aber mehr Tokens und dauern länger. Belassen Sie die Einstellung auf dem Standardwert, um die Entscheidung der Claude-API zu überlassen. Ältere Claude-Modelle unterstützen diese Einstellung nicht."
