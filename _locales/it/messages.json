@@ -2468,5 +2468,56 @@
     },
     "prefs_footer_donate": {
         "message": "Fai una donazione"
+    },
+    "anthropic_err_hint_temperature": {
+        "message": "Il modello Claude selezionato ($MODEL$) non accetta l'impostazione Temperatura. Svuota il campo Temperatura oppure usa l'impostazione Effort."
+    },
+    "anthropic_err_hint_budget_tokens": {
+        "message": "Il modello Claude selezionato ($MODEL$) non accetta un budget per il pensiero esteso impostato manualmente. Imposta il Budget per il pensiero esteso a 0 e usa invece l'impostazione Effort."
+    },
+    "anthropic_err_hint_thinking_type": {
+        "message": "Il modello Claude selezionato ($MODEL$) non accetta questa configurazione del pensiero. Controlla le impostazioni Budget per il pensiero esteso ed Effort."
+    },
+    "anthropic_err_hint_effort": {
+        "message": "Il modello Claude selezionato ($MODEL$) non accetta questo livello di Effort. Scegli un livello diverso nella pagina delle opzioni."
+    },
+    "prefs_OptionText_anthropic_effort": {
+        "message": "Effort"
+    },
+    "prefs_OptionText_anthropic_effort_Info": {
+        "message": "Quanto impegno di ragionamento il modello deve dedicare a una richiesta. I livelli più alti forniscono risposte migliori nelle attività complesse, ma costano più token e richiedono più tempo. Lascia il valore predefinito per far decidere all'API di Claude. I modelli Claude più vecchi non supportano questa impostazione."
+    },
+    "anthropic_effort_default": {
+        "message": "Predefinito (deciso dall'API)"
+    },
+    "Anthropic_Effort_Level_low": {
+        "message": "Basso"
+    },
+    "Anthropic_Effort_Level_medium": {
+        "message": "Medio"
+    },
+    "Anthropic_Effort_Level_high": {
+        "message": "Alto"
+    },
+    "Anthropic_Effort_Level_xhigh": {
+        "message": "Molto alto"
+    },
+    "Anthropic_Effort_Level_max": {
+        "message": "Massimo"
+    },
+    "anthropic_note_temperature_unsupported": {
+        "message": "Il modello selezionato non accetta un valore di Temperatura e ignora questo campo. Usa invece l'impostazione Effort. Il valore viene conservato nel caso in cui tornassi a un modello più vecchio."
+    },
+    "anthropic_note_budget_tokens_unsupported": {
+        "message": "Il modello selezionato non accetta un budget per il pensiero esteso impostato manualmente e ignora questo campo. Usa invece l'impostazione Effort. Il valore viene conservato nel caso in cui tornassi a un modello più vecchio."
+    },
+    "anthropic_note_effort_unsupported": {
+        "message": "Il modello selezionato non supporta l'impostazione Effort. Usa invece il Budget per il pensiero esteso."
+    },
+    "summarize_error_no_message_id": {
+        "message": "Non è stato possibile leggere il messaggio: il riassunto sarebbe stato generato solo dall'oggetto."
+    },
+    "translate_error_no_message_id": {
+        "message": "Non è stato possibile leggere il messaggio: la traduzione sarebbe stata generata solo dall'oggetto."
     }
 }
