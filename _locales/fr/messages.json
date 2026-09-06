@@ -2582,5 +2582,56 @@
     },
     "prefs_OptionText_summarize_auto_senders_list_Info": {
         "message": "Adresses d'expéditeurs à résumer automatiquement :"
+    },
+    "anthropic_err_hint_temperature": {
+        "message": "Le modèle Claude sélectionné ($MODEL$) n'accepte pas le paramètre Température. Videz le champ Température ou utilisez plutôt le paramètre Effort."
+    },
+    "anthropic_err_hint_budget_tokens": {
+        "message": "Le modèle Claude sélectionné ($MODEL$) n'accepte pas de budget de réflexion étendue défini manuellement. Réglez le budget de réflexion étendue sur 0 et utilisez plutôt le paramètre Effort."
+    },
+    "anthropic_err_hint_thinking_type": {
+        "message": "Le modèle Claude sélectionné ($MODEL$) n'accepte pas cette configuration de réflexion. Vérifiez les paramètres Budget de réflexion étendue et Effort."
+    },
+    "anthropic_err_hint_effort": {
+        "message": "Le modèle Claude sélectionné ($MODEL$) n'accepte pas ce niveau d'Effort. Choisissez un autre niveau dans la page des options."
+    },
+    "prefs_OptionText_anthropic_effort": {
+        "message": "Effort"
+    },
+    "prefs_OptionText_anthropic_effort_Info": {
+        "message": "Quantité d'effort de raisonnement que le modèle doit consacrer à une requête. Les niveaux plus élevés donnent de meilleures réponses sur les tâches complexes, mais consomment plus de jetons et prennent plus de temps. Laissez la valeur par défaut pour laisser l'API Claude décider. Les anciens modèles Claude ne prennent pas en charge ce paramètre."
+    },
+    "anthropic_effort_default": {
+        "message": "Par défaut (décidé par l'API)"
+    },
+    "Anthropic_Effort_Level_low": {
+        "message": "Faible"
+    },
+    "Anthropic_Effort_Level_medium": {
+        "message": "Moyen"
+    },
+    "Anthropic_Effort_Level_high": {
+        "message": "Élevé"
+    },
+    "Anthropic_Effort_Level_xhigh": {
+        "message": "Très élevé"
+    },
+    "Anthropic_Effort_Level_max": {
+        "message": "Maximum"
+    },
+    "anthropic_note_temperature_unsupported": {
+        "message": "Le modèle sélectionné n'accepte pas de valeur de Température et ignore ce champ. Utilisez plutôt le paramètre Effort. La valeur est conservée au cas où vous reviendriez à un modèle plus ancien."
+    },
+    "anthropic_note_budget_tokens_unsupported": {
+        "message": "Le modèle sélectionné n'accepte pas de budget de réflexion étendue défini manuellement et ignore ce champ. Utilisez plutôt le paramètre Effort. La valeur est conservée au cas où vous reviendriez à un modèle plus ancien."
+    },
+    "anthropic_note_effort_unsupported": {
+        "message": "Le modèle sélectionné ne prend pas en charge le paramètre Effort. Utilisez plutôt le budget de réflexion étendue."
+    },
+    "summarize_error_no_message_id": {
+        "message": "Impossible de lire le message : le résumé aurait été généré uniquement à partir de l'objet."
+    },
+    "translate_error_no_message_id": {
+        "message": "Impossible de lire le message : la traduction aurait été générée uniquement à partir de l'objet."
     }
 }
