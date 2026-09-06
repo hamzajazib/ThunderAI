@@ -311,7 +311,7 @@ input, select, button, textarea { font-family: inherit; }
    appropriate inside the injected connection table. Reset it for labels used
    elsewhere in the card so they don't force full-width / min-content collapse.
    The connection panel keeps the original behaviour via #connection_ui_table. */
-#mzta_body label:not(#connection_ui_table label):not(.mzta_switch):not(.mzta_adv_check) { width: auto; }
+#mzta_body label:not(#connection_ui_table label):not(.mzta_switch) { width: auto; }
 
 /* Section eyebrow inside body */
 .mzta_section > .mzta_eyebrow,
@@ -883,16 +883,6 @@ span.dims_label { width: 75px; display: inline-block; font-size: 12px; color: va
     gap: 15px;
 }
 #mzta_adv_panel.hidden { display: none; }
-.mzta_adv_check {
-    display: flex;
-    gap: 9px;
-    align-items: flex-start;
-    font-size: 12.5px;
-    color: var(--text);
-    cursor: pointer;
-    line-height: 1.35;
-}
-.mzta_adv_check input[type="checkbox"] { margin-top: 1px; accent-color: var(--accent); }
 /* Behaviour toggle rows: same metrics as .feature_row, but no border/padding since
    #mzta_adv_panel already supplies the 15px gap between its flex children. */
 .mzta_adv_row {
@@ -905,6 +895,21 @@ span.dims_label { width: 75px; display: inline-block; font-size: 12px; color: va
 .mzta_adv_info { flex: 1 1 auto; min-width: 0; }
 .mzta_adv_name { font-size: 13px; font-weight: 600; color: var(--text); }
 .mzta_adv_desc { font-size: 11.5px; color: var(--dim); margin-top: 2px; line-height: 1.4; }
+/* Sub-option variant: a toggle that belongs to the .mzta_field it sits inside
+   (e.g. "save window position" under the window Top/Left inputs) rather than
+   being a setting of its own. The label keeps .mzta_help weight, so the switch
+   is scaled down and vertically centred on that single line instead of using
+   the title-height alignment of a full .mzta_adv_row. The indent + left rule
+   mark the row as subordinate to the field; the switch stays in the right-hand
+   column shared by every other toggle. */
+.mzta_adv_row_sub {
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    border-left: 2px solid var(--fieldLine);
+    margin-top: 1px;
+}
+.mzta_adv_row_sub .mzta_switch { margin-top: 0; transform: scale(.85); transform-origin: right center; }
 .mzta_storage_row {
     display: flex;
     align-items: center;
