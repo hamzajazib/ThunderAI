@@ -2658,5 +2658,56 @@
     "editor_placeholder_unterminated": {
         "message": "Niezamknięty symbol zastępczy: brak zamykającego %}",
         "description": "Tooltip on a highlighted placeholder token in the prompt editor when the token opens with {% but never closes with %}"
+    },
+    "anthropic_err_hint_temperature": {
+        "message": "Wybrany model Claude ($MODEL$) nie przyjmuje ustawienia Temperatura. Wyczyść pole Temperatura lub użyj zamiast niego ustawienia Wysiłek."
+    },
+    "anthropic_err_hint_budget_tokens": {
+        "message": "Wybrany model Claude ($MODEL$) nie przyjmuje ręcznie ustawionego budżetu rozszerzonego myślenia. Ustaw Budżet rozszerzonego myślenia na 0 i użyj zamiast niego ustawienia Wysiłek."
+    },
+    "anthropic_err_hint_thinking_type": {
+        "message": "Wybrany model Claude ($MODEL$) nie przyjmuje tej konfiguracji myślenia. Sprawdź ustawienia Budżet rozszerzonego myślenia i Wysiłek."
+    },
+    "anthropic_err_hint_effort": {
+        "message": "Wybrany model Claude ($MODEL$) nie przyjmuje tego poziomu Wysiłku. Wybierz inny poziom na stronie opcji."
+    },
+    "prefs_OptionText_anthropic_effort": {
+        "message": "Wysiłek"
+    },
+    "prefs_OptionText_anthropic_effort_Info": {
+        "message": "Ile wysiłku model ma poświęcić na wnioskowanie w ramach żądania. Wyższe poziomy dają lepsze odpowiedzi w złożonych zadaniach, ale kosztują więcej tokenów i zajmują więcej czasu. Pozostaw wartość domyślną, aby decyzję podjęło API Claude. Starsze modele Claude nie obsługują tego ustawienia."
+    },
+    "anthropic_effort_default": {
+        "message": "Domyślnie (decyduje API)"
+    },
+    "Anthropic_Effort_Level_low": {
+        "message": "Niski"
+    },
+    "Anthropic_Effort_Level_medium": {
+        "message": "Średni"
+    },
+    "Anthropic_Effort_Level_high": {
+        "message": "Wysoki"
+    },
+    "Anthropic_Effort_Level_xhigh": {
+        "message": "Bardzo wysoki"
+    },
+    "Anthropic_Effort_Level_max": {
+        "message": "Maksymalny"
+    },
+    "anthropic_note_temperature_unsupported": {
+        "message": "Wybrany model nie przyjmuje wartości Temperatury i ignoruje to pole. Użyj zamiast niego ustawienia Wysiłek. Wartość jest zachowywana na wypadek powrotu do starszego modelu."
+    },
+    "anthropic_note_budget_tokens_unsupported": {
+        "message": "Wybrany model nie przyjmuje ręcznie ustawionego budżetu rozszerzonego myślenia i ignoruje to pole. Użyj zamiast niego ustawienia Wysiłek. Wartość jest zachowywana na wypadek powrotu do starszego modelu."
+    },
+    "anthropic_note_effort_unsupported": {
+        "message": "Wybrany model nie obsługuje ustawienia Wysiłek. Użyj zamiast niego Budżetu rozszerzonego myślenia."
+    },
+    "summarize_error_no_message_id": {
+        "message": "Nie udało się odczytać wiadomości: podsumowanie zostałoby wygenerowane wyłącznie na podstawie tematu."
+    },
+    "translate_error_no_message_id": {
+        "message": "Nie udało się odczytać wiadomości: tłumaczenie zostałoby wygenerowane wyłącznie na podstawie tematu."
     }
 }
