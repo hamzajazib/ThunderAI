@@ -2582,5 +2582,56 @@
     "editor_placeholder_unterminated": {
         "message": "Nicht abgeschlossener Platzhalter: schließendes %} fehlt",
         "description": "Tooltip on a highlighted placeholder token in the prompt editor when the token opens with {% but never closes with %}"
+    },
+    "anthropic_err_hint_temperature": {
+        "message": "Das ausgewählte Claude-Modell ($MODEL$) akzeptiert die Einstellung Temperatur nicht. Leeren Sie das Feld Temperatur oder verwenden Sie stattdessen die Einstellung Effort."
+    },
+    "anthropic_err_hint_budget_tokens": {
+        "message": "Das ausgewählte Claude-Modell ($MODEL$) akzeptiert kein manuell festgelegtes Budget für erweitertes Denken. Setzen Sie das Budget für erweitertes Denken auf 0 und verwenden Sie stattdessen die Einstellung Effort."
+    },
+    "anthropic_err_hint_thinking_type": {
+        "message": "Das ausgewählte Claude-Modell ($MODEL$) akzeptiert diese Denk-Konfiguration nicht. Überprüfen Sie die Einstellungen Budget für erweitertes Denken und Effort."
+    },
+    "anthropic_err_hint_effort": {
+        "message": "Das ausgewählte Claude-Modell ($MODEL$) akzeptiert diese Effort-Stufe nicht. Wählen Sie auf der Optionsseite eine andere Stufe."
+    },
+    "prefs_OptionText_anthropic_effort": {
+        "message": "Effort"
+    },
+    "prefs_OptionText_anthropic_effort_Info": {
+        "message": "Wie viel Denkaufwand das Modell für eine Anfrage verwenden soll. Höhere Stufen liefern bessere Antworten bei komplexen Aufgaben, kosten aber mehr Tokens und dauern länger. Belassen Sie die Einstellung auf dem Standardwert, um die Entscheidung der Claude-API zu überlassen. Ältere Claude-Modelle unterstützen diese Einstellung nicht."
+    },
+    "anthropic_effort_default": {
+        "message": "Standard (von der API festgelegt)"
+    },
+    "Anthropic_Effort_Level_low": {
+        "message": "Niedrig"
+    },
+    "Anthropic_Effort_Level_medium": {
+        "message": "Mittel"
+    },
+    "Anthropic_Effort_Level_high": {
+        "message": "Hoch"
+    },
+    "Anthropic_Effort_Level_xhigh": {
+        "message": "Sehr hoch"
+    },
+    "Anthropic_Effort_Level_max": {
+        "message": "Maximum"
+    },
+    "anthropic_note_temperature_unsupported": {
+        "message": "Das ausgewählte Modell akzeptiert keinen Temperatur-Wert und ignoriert dieses Feld. Verwenden Sie stattdessen die Einstellung Effort. Der Wert wird beibehalten, falls Sie zu einem älteren Modell zurückwechseln."
+    },
+    "anthropic_note_budget_tokens_unsupported": {
+        "message": "Das ausgewählte Modell akzeptiert kein manuell festgelegtes Budget für erweitertes Denken und ignoriert dieses Feld. Verwenden Sie stattdessen die Einstellung Effort. Der Wert wird beibehalten, falls Sie zu einem älteren Modell zurückwechseln."
+    },
+    "anthropic_note_effort_unsupported": {
+        "message": "Das ausgewählte Modell unterstützt die Einstellung Effort nicht. Verwenden Sie stattdessen das Budget für erweitertes Denken."
+    },
+    "summarize_error_no_message_id": {
+        "message": "Die Nachricht konnte nicht gelesen werden: Die Zusammenfassung wäre nur aus dem Betreff erstellt worden."
+    },
+    "translate_error_no_message_id": {
+        "message": "Die Nachricht konnte nicht gelesen werden: Die Übersetzung wäre nur aus dem Betreff erstellt worden."
     }
 }
