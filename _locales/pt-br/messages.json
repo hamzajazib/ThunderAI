@@ -2468,5 +2468,56 @@
     },
     "prefs_OptionText_diff_granularity_info": {
         "message": "Como a ferramenta de seleção de alterações compara o texto original com a resposta. A opção \"Palavras\" é adequada para corrigir ortografia e gramática; a opção \"Frases\" facilita a leitura quando a resposta reescreve frases inteiras. Observe que, em um texto composto por uma única frase, a opção \"Frases\" exibe o texto todo como uma única alteração. Você também pode alternar entre as duas opções ao revisar as alterações."
+    },
+    "anthropic_err_hint_temperature": {
+        "message": "O modelo Claude selecionado ($MODEL$) não aceita a configuração Temperatura. Limpe o campo Temperatura ou use a configuração Esforço em seu lugar."
+    },
+    "anthropic_err_hint_budget_tokens": {
+        "message": "O modelo Claude selecionado ($MODEL$) não aceita um orçamento de pensamento estendido definido manualmente. Defina o Orçamento de pensamento estendido como 0 e use a configuração Esforço em seu lugar."
+    },
+    "anthropic_err_hint_thinking_type": {
+        "message": "O modelo Claude selecionado ($MODEL$) não aceita essa configuração de pensamento. Verifique as configurações Orçamento de pensamento estendido e Esforço."
+    },
+    "anthropic_err_hint_effort": {
+        "message": "O modelo Claude selecionado ($MODEL$) não aceita esse nível de Esforço. Escolha um nível diferente na página de opções."
+    },
+    "prefs_OptionText_anthropic_effort": {
+        "message": "Esforço"
+    },
+    "prefs_OptionText_anthropic_effort_Info": {
+        "message": "Quanto esforço de raciocínio o modelo deve dedicar a uma solicitação. Níveis mais altos oferecem respostas melhores em tarefas complexas, mas custam mais tokens e levam mais tempo. Mantenha o valor padrão para deixar a API do Claude decidir. Os modelos Claude mais antigos não suportam essa configuração."
+    },
+    "anthropic_effort_default": {
+        "message": "Padrão (decidido pela API)"
+    },
+    "Anthropic_Effort_Level_low": {
+        "message": "Baixo"
+    },
+    "Anthropic_Effort_Level_medium": {
+        "message": "Médio"
+    },
+    "Anthropic_Effort_Level_high": {
+        "message": "Alto"
+    },
+    "Anthropic_Effort_Level_xhigh": {
+        "message": "Muito alto"
+    },
+    "Anthropic_Effort_Level_max": {
+        "message": "Máximo"
+    },
+    "anthropic_note_temperature_unsupported": {
+        "message": "O modelo selecionado não aceita um valor de Temperatura e ignora este campo. Use a configuração Esforço em seu lugar. O valor é mantido caso você volte para um modelo mais antigo."
+    },
+    "anthropic_note_budget_tokens_unsupported": {
+        "message": "O modelo selecionado não aceita um orçamento de pensamento estendido definido manualmente e ignora este campo. Use a configuração Esforço em seu lugar. O valor é mantido caso você volte para um modelo mais antigo."
+    },
+    "anthropic_note_effort_unsupported": {
+        "message": "O modelo selecionado não suporta a configuração Esforço. Use o Orçamento de pensamento estendido em seu lugar."
+    },
+    "summarize_error_no_message_id": {
+        "message": "Não foi possível ler a mensagem: o resumo teria sido gerado apenas a partir do assunto."
+    },
+    "translate_error_no_message_id": {
+        "message": "Não foi possível ler a mensagem: a tradução teria sido gerada apenas a partir do assunto."
     }
 }
