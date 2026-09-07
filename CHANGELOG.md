@@ -2,7 +2,7 @@
 
 
 
-<h2>Version 5.0.0 - ??/??/2026</h2>
+<h2>Version 5.0.0 - 08/09/2026</h2>
       <ul>
         <li>Redesigned the settings page, moving advanced options to a dedicated section to improve the onboarding experience [<a href="https://github.com/micz/ThunderAI/issues/739">#739</a>].</li>
         <li>Added a guided Setup Wizard to choose the AI provider, test the connection and enable the AI features. It can be launched from the welcome page, from the toolbar popup and from the settings page [<a href="https://github.com/micz/ThunderAI/issues/830">#830</a>].</li>
@@ -35,7 +35,6 @@
         <li>Implemented a new HTML engine to get and set the email content in Thunderbird.</li>
         <li>Many minor improvements.</li>
         <li>Various minor bugs fixed.</li>
-        <li>...</li>
       </ul>
 <h2>Version 4.1.1 - 19/07/2026</h2>
       <ul>
