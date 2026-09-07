@@ -547,7 +547,7 @@ export class mzta_Menus {
                         }
                         /* We expect to receive from the AI a JSON object like this:
                         *  {
-                        *   "InitialDate": "YYYYMMDDTHHMMSS",
+                        *   "initialDate": "YYYYMMDDTHHMMSS",
                         *   "dueDate": "YYYYMMDDTHHMMSS",
                         *   "summary": "Task summary here",
                         *   "description": "Detailed task description including action items, and relevant notes from the email.",
@@ -578,14 +578,14 @@ export class mzta_Menus {
                             if (task_data_obj.dueDate) {
                                 task_data_obj.dueDate = normalizeDateTimeString(task_data_obj.dueDate);
                             }
-                            if (task_data_obj.InitialDate) {
-                                task_data_obj.InitialDate = normalizeDateTimeString(task_data_obj.InitialDate);
+                            if (task_data_obj.initialDate) {
+                                task_data_obj.initialDate = normalizeDateTimeString(task_data_obj.initialDate);
                             }
                             if (!task_data_obj.dueDate) {
                                 delete task_data_obj.dueDate;
                             }
-                            if (!task_data_obj.InitialDate) {
-                                delete task_data_obj.InitialDate;
+                            if (!task_data_obj.initialDate) {
+                                delete task_data_obj.initialDate;
                             }
                         }catch(err){
                             console.error("[ThunderAI] Error extracting JSON object from task data: ", err.message);
